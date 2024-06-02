@@ -1,0 +1,51 @@
+body, html {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(25,0,255,1) 100%);
+}
+
+.tort-main {
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.tort-main__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in-out alternate;
+}
+
+.tort-main__subtitle {
+  font-size: 38px;
+  font-weight: 600;
+  margin-top: 20px;
+  animation: fadeIn 1.5s ease-in-out alternate;
+}
+
+.tort-main__sasha-picture{
+  margin-top: 40px;
+  border-radius: 24px;
+  animation: fadeIn 2s ease-in-out alternate;
+  width: 45%;
+}
+
+.tort-main__paragraph{
+  margin-top: 20px;
+  animation: fadeIn 2.5s ease-in-out alternate;
+}
+
+.tort-main__paragraph > a {
+  color: skyblue;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
